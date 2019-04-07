@@ -1,0 +1,118 @@
+{
+  "5365bb26c060c9a5cdc7401a1482990" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd9f8324b6612f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554624335698,
+        "stop" : 1554624335934,
+        "duration" : 236
+      }
+    } ]
+  },
+  "90034a2385e25fcab10f472e483a17fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69c2abdc6195486d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554624336516,
+        "stop" : 1554624336562,
+        "duration" : 46
+      }
+    } ]
+  },
+  "4db512c7014abcffa3d0afa12ba186f4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29edaa0c888ce908",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'\n  - 此账户禁止登录\n  ?       ^\n  + 此账户禁止登陆\n  ?       ^",
+      "time" : {
+        "start" : 1554624336565,
+        "stop" : 1554624336625,
+        "duration" : 60
+      }
+    } ]
+  },
+  "1c29dec87e625496586d7f5934db37e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdfc732f4a70fd88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554624335955,
+        "stop" : 1554624335998,
+        "duration" : 43
+      }
+    } ]
+  },
+  "866d75186acf1460e826482a747b3234" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6e13c35209722f2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '操作成功' == '操作失败'\n  - 操作成功\n  + 操作失败",
+      "time" : {
+        "start" : 1554624336001,
+        "stop" : 1554624336512,
+        "duration" : 511
+      }
+    } ]
+  },
+  "9bfdcb4de544eea325a2193d8f251fe7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b99f2ae7e4ca0923",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554624336628,
+        "stop" : 1554624336663,
+        "duration" : 35
+      }
+    } ]
+  }
+}

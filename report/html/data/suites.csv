@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcse.E:\pywork\htestjk\testcse\sys.test_changepassword.Test_changepassword.test_changepassword_success","236",""
+"passed","testcse.E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_fail1","35",""
+"passed","testcse.E:\pywork\htestjk\testcse\sys.test_getUserInfo.Test_getuser.test_getuserinfo_success","43",""
+"passed","testcse.E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_success","46",""
+"failed","testcse.E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_fail","60",""
+"failed","testcse.E:\pywork\htestjk\testcse\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail","511",""

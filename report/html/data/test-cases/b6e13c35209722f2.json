@@ -1,0 +1,72 @@
+{
+  "uid" : "b6e13c35209722f2",
+  "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail",
+  "fullName" : "testcse.E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail",
+  "historyId" : "866d75186acf1460e826482a747b3234",
+  "time" : {
+    "start" : 1554624336001,
+    "stop" : 1554624336512,
+    "duration" : 511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '操作成功' == '操作失败'\n  - 操作成功\n  + 操作失败",
+  "statusTrace" : "self = <testcse.sys.test_getUserInfo.Test_getuser object at 0x00000234F962F940>\n\n    @allure.story(\"获取用户成功\")\n    def test_getuserinfo_fail(self):\n        path = '/sys/getUserInfo'\n        data = {'token': \"\"}\n        resp = http.post(path, data)\n        assert resp['code'] == 200\n>       assert resp['msg'] == '操作失败'\nE       AssertionError: assert '操作成功' == '操作失败'\nE         - 操作成功\nE         + 操作失败\n\ntestcse\\sys\\test_getUserInfo.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取用户模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAS8F0D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "获取用户成功"
+  }, {
+    "name" : "thread",
+    "value" : "11516-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcse"
+  }, {
+    "name" : "testClass",
+    "value" : "testcse"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail"
+  }, {
+    "name" : "package",
+    "value" : "testcse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b6e13c35209722f2.json",
+  "parameterValues" : [ ]
+}

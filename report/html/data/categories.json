@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '操作成功' == '操作失败'\n  - 操作成功\n  + 操作失败",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail",
+        "uid" : "b6e13c35209722f2",
+        "parentUid" : "1a7b56526fd826ae12c3bf85d55e58a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336001,
+          "stop" : 1554624336512,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a7b56526fd826ae12c3bf85d55e58a4"
+    }, {
+      "name" : "AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'\n  - 此账户禁止登录\n  ?       ^\n  + 此账户禁止登陆\n  ?       ^",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail",
+        "uid" : "29edaa0c888ce908",
+        "parentUid" : "fd302c7ff6e622ce59f919ed3108ab69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336565,
+          "stop" : 1554624336625,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd302c7ff6e622ce59f919ed3108ab69"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,134 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554624335698" stop="1554624336663">
+  <name>testcse</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554624335698" status="passed" stop="1554624335934">
+      <name>E:\pywork\htestjk\testcse\sys.test_changepassword.Test_changepassword.test_changepassword_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="修改密码"/>
+        <label name="feature" value="修改密码模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554624335955" status="passed" stop="1554624335998">
+      <name>E:\pywork\htestjk\testcse\sys.test_getUserInfo.Test_getuser.test_getuserinfo_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="获取用户成功"/>
+        <label name="feature" value="获取用户模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554624336001" status="failed" stop="1554624336512">
+      <name>E:\pywork\htestjk\testcse\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail</name>
+      <failure>
+        <message>AssertionError: assert '操作成功' == '操作失败'
+  - 操作成功
+  + 操作失败</message>
+        <stack-trace>self = &lt;testcse.sys.test_getUserInfo.Test_getuser object at 0x00000234F962F940&gt;
+
+    @allure.story("获取用户成功")
+    def test_getuserinfo_fail(self):
+        path = '/sys/getUserInfo'
+        data = {'token': ""}
+        resp = http.post(path, data)
+        assert resp['code'] == 200
+&gt;       assert resp['msg'] == '操作失败'
+E       AssertionError: assert '操作成功' == '操作失败'
+E         - 操作成功
+E         + 操作失败
+
+testcse\sys\test_getUserInfo.py:22: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="获取用户成功"/>
+        <label name="feature" value="获取用户模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554624336516" status="passed" stop="1554624336562">
+      <name>E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="登陆成功"/>
+        <label name="feature" value="登陆模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554624336565" status="failed" stop="1554624336625">
+      <name>E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_fail</name>
+      <failure>
+        <message>AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'
+  - 此账户禁止登录
+  ?       ^
+  + 此账户禁止登陆
+  ?       ^</message>
+        <stack-trace>self = &lt;testcse.sys.test_login.Test_Login object at 0x00000234F962F5F8&gt;
+
+    @allure.story('登陆失败')
+    def test_login_fail(self):
+        url = "/sys/login"
+        data = {'userName': "",
+                'password': CommonData.password
+                }
+        resp = http.post(url, data)
+        assert resp['code'] == 3010
+&gt;       assert resp['msg'] == "此账户禁止登陆"
+E       AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'
+E         - 此账户禁止登录
+E         ?       ^
+E         + 此账户禁止登陆
+E         ?       ^
+
+testcse\sys\test_login.py:27: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="登陆失败"/>
+        <label name="feature" value="登陆模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554624336628" status="passed" stop="1554624336663">
+      <name>E:\pywork\htestjk\testcse\sys.test_login.Test_Login.test_login_fail1</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="登陆失败1"/>
+        <label name="feature" value="登陆模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11516-MainThread"/>
+        <label name="host" value="DESKTOP-KAS8F0D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

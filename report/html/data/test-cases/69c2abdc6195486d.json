@@ -1,0 +1,66 @@
+{
+  "uid" : "69c2abdc6195486d",
+  "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_success",
+  "fullName" : "testcse.E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_success",
+  "historyId" : "90034a2385e25fcab10f472e483a17fb",
+  "time" : {
+    "start" : 1554624336516,
+    "stop" : 1554624336562,
+    "duration" : 46
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登陆模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAS8F0D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "登陆成功"
+  }, {
+    "name" : "thread",
+    "value" : "11516-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcse"
+  }, {
+    "name" : "testClass",
+    "value" : "testcse"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_success"
+  }, {
+    "name" : "package",
+    "value" : "testcse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69c2abdc6195486d.json",
+  "parameterValues" : [ ]
+}

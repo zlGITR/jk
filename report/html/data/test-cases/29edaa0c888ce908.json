@@ -1,0 +1,72 @@
+{
+  "uid" : "29edaa0c888ce908",
+  "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail",
+  "fullName" : "testcse.E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail",
+  "historyId" : "4db512c7014abcffa3d0afa12ba186f4",
+  "time" : {
+    "start" : 1554624336565,
+    "stop" : 1554624336625,
+    "duration" : 60
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'\n  - 此账户禁止登录\n  ?       ^\n  + 此账户禁止登陆\n  ?       ^",
+  "statusTrace" : "self = <testcse.sys.test_login.Test_Login object at 0x00000234F962F5F8>\n\n    @allure.story('登陆失败')\n    def test_login_fail(self):\n        url = \"/sys/login\"\n        data = {'userName': \"\",\n                'password': CommonData.password\n                }\n        resp = http.post(url, data)\n        assert resp['code'] == 3010\n>       assert resp['msg'] == \"此账户禁止登陆\"\nE       AssertionError: assert '此账户禁止登录' == '此账户禁止登陆'\nE         - 此账户禁止登录\nE         ?       ^\nE         + 此账户禁止登陆\nE         ?       ^\n\ntestcse\\sys\\test_login.py:27: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登陆模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAS8F0D"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "登陆失败"
+  }, {
+    "name" : "thread",
+    "value" : "11516-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcse"
+  }, {
+    "name" : "testClass",
+    "value" : "testcse"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail"
+  }, {
+    "name" : "package",
+    "value" : "testcse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "29edaa0c888ce908.json",
+  "parameterValues" : [ ]
+}

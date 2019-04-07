@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "修改密码",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_changepassword.Test_changepassword.test_changepassword_success",
+        "uid" : "cd9f8324b6612f88",
+        "parentUid" : "ce983baf42e9220f9ff04173cedd98a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624335698,
+          "stop" : 1554624335934,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce983baf42e9220f9ff04173cedd98a2"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "获取用户模块",
+    "children" : [ {
+      "name" : "获取用户成功",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_success",
+        "uid" : "cdfc732f4a70fd88",
+        "parentUid" : "3f1f81abceb71f5c011492a4cded36ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624335955,
+          "stop" : 1554624335998,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail",
+        "uid" : "b6e13c35209722f2",
+        "parentUid" : "3f1f81abceb71f5c011492a4cded36ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336001,
+          "stop" : 1554624336512,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f1f81abceb71f5c011492a4cded36ac"
+    } ],
+    "uid" : "bbd6c282107ed14bd71bc951b256a1ae"
+  }, {
+    "name" : "登陆模块",
+    "children" : [ {
+      "name" : "登陆成功",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_success",
+        "uid" : "69c2abdc6195486d",
+        "parentUid" : "0f0174a06a3aabc2a3bd738c5d9ebfa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624336516,
+          "stop" : 1554624336562,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f0174a06a3aabc2a3bd738c5d9ebfa5"
+    }, {
+      "name" : "登陆失败",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail",
+        "uid" : "29edaa0c888ce908",
+        "parentUid" : "e38d3ea47bcb0bc7dd5ed7ebc5149cdd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336565,
+          "stop" : 1554624336625,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e38d3ea47bcb0bc7dd5ed7ebc5149cdd"
+    }, {
+      "name" : "登陆失败1",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail1",
+        "uid" : "b99f2ae7e4ca0923",
+        "parentUid" : "ecbe455531fd12942b813ea421f9bae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624336628,
+          "stop" : 1554624336663,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecbe455531fd12942b813ea421f9bae9"
+    } ],
+    "uid" : "aabb69485063425b718b057ab51a7a51"
+  } ]
+}

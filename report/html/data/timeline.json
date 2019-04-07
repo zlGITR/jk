@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-KAS8F0D",
+    "children" : [ {
+      "name" : "11516-MainThread",
+      "children" : [ {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_changepassword.Test_changepassword.test_changepassword_success",
+        "uid" : "cd9f8324b6612f88",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624335698,
+          "stop" : 1554624335934,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail1",
+        "uid" : "b99f2ae7e4ca0923",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624336628,
+          "stop" : 1554624336663,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_success",
+        "uid" : "cdfc732f4a70fd88",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624335955,
+          "stop" : 1554624335998,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_success",
+        "uid" : "69c2abdc6195486d",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554624336516,
+          "stop" : 1554624336562,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_login.Test_Login.test_login_fail",
+        "uid" : "29edaa0c888ce908",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336565,
+          "stop" : 1554624336625,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\pywork\\htestjk\\testcse\\sys.test_getUserInfo.Test_getuser.test_getuserinfo_fail",
+        "uid" : "b6e13c35209722f2",
+        "parentUid" : "136bf8988c39e7bcce1843c4b663ab4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554624336001,
+          "stop" : 1554624336512,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "136bf8988c39e7bcce1843c4b663ab4b"
+    } ],
+    "uid" : "90d223a2a0806e665465602ffcabb26a"
+  } ]
+}
